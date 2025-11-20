@@ -29,6 +29,10 @@
       "description": "Easily schedule and manage medical appointments, social activities, and family visits through an intuitive shared calendar."
     }
   },
+  "aboutProduct": {
+    "title": "About The Product",
+    "description": "Watch our short video to learn more about how VitaliaConnect is revolutionizing communication in care centers."
+  },
   "screenshots": {
     "title": "An Intuitive Experience",
     "description": "Explore the clean and user-friendly interface of VitaliaConnect. Designed for clarity and ease of use for everyone."
