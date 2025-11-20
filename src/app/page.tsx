@@ -6,6 +6,7 @@ import { Features } from '@/components/landing/features';
 import { AboutProduct } from '@/components/landing/about-product';
 import { AboutTeam } from '@/components/landing/about-team';
 import { Screenshots } from '@/components/landing/screenshots';
+import { Contact } from '@/components/landing/contact';
 import { Footer } from '@/components/landing/footer';
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Screenshots />
         <AboutProduct />
         <AboutTeam />
+        <Contact />
       </main>
       <Footer />
     </div>

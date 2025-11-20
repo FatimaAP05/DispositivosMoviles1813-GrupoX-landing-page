@@ -46,6 +46,16 @@
     "appStore": "Download on the App Store",
     "googlePlay": "Get it on Google Play"
   },
+  "contact": {
+    "title": "CONTACT US",
+    "description": "We are here for you! At Vitalia, we value connection and support. If you have questions, need help, or simply want to learn more about our services, don't hesitate to contact us.",
+    "email": "Email",
+    "phone": "Phone",
+    "sendMessage": "Send Message",
+    "fullName": "Full Name",
+    "emailLabel": "Email",
+    "messagePlaceholder": "Write your message..."
+  },
   "footer": {
     "builtBy": "Built by your friendly neighborhood AI.",
     "rightsReserved": "All rights reserved."
