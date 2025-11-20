@@ -15,7 +15,7 @@ export function AboutTeam() {
             {t('aboutTeam.description')}
           </p>
         </div>
-        {/* The empty iframe that was causing the error has been removed. */}
+        
       </div>
     </section>
   );
