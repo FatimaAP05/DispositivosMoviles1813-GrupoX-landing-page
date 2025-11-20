@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster"
 import { I18nProvider } from '@/context/i18n-context';
 
 export const metadata: Metadata = {
-  title: 'VitaliaConnect',
+  title: 'Vitalia',
   description: 'Connecting Families, Enhancing Care.',
 };
 
