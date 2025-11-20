@@ -21,7 +21,7 @@ export function Hero() {
       />
       <div className="container relative z-10 px-4">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-20 items-center">
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-left max-w-xl mx-auto md:mx-0">
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl font-headline">
               {t('hero.title')}
             </h1>
