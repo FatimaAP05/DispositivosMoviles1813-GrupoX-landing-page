@@ -11,7 +11,7 @@ const heroImage = PlaceHolderImages.find(img => img.id === 'hero-image');
 export function Hero() {
   const { t } = useI18n();
   return (
-    <section className="relative py-10 md:py-16">
+    <section className="relative py-2">
       <div
         aria-hidden="true"
         className="absolute inset-0 top-0 z-0 opacity-40"
@@ -39,7 +39,7 @@ export function Hero() {
               </Link>
             </div>
           </div>
-          <div className="relative h-64 md:h-auto md:aspect-square">
+          <div className="relative h-64 md:h-auto md:aspect-square max-w-sm mx-auto md:max-w-none">
             {heroImage && (
               <Image
                 src={heroImage.imageUrl}
