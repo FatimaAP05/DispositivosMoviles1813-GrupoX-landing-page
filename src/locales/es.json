@@ -1,6 +1,5 @@
 {
   "header": {
-    "signIn": "Iniciar Sesión",
     "getStarted": "Comenzar"
   },
   "hero": {
@@ -36,6 +35,12 @@
   "screenshots": {
     "title": "Una Experiencia Intuitiva",
     "description": "Explore la interfaz limpia y fácil de usar de VitaliaConnect. Diseñada para la claridad y la facilidad de uso para todos."
+  },
+  "download": {
+    "title": "Descarga VitaliaConnect",
+    "description": "Obtén la aplicación en tu plataforma favorita y mantente conectado dondequiera que vayas.",
+    "appStore": "Descargar en la App Store",
+    "googlePlay": "Obtener en Google Play"
   },
   "footer": {
     "builtBy": "Construido por tu amigable IA del vecindario.",

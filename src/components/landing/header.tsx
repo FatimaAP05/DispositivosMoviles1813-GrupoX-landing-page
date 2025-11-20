@@ -17,8 +17,9 @@ export function Header() {
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-2">
           <LanguageSwitcher />
-          <Button variant="ghost">{t('header.signIn')}</Button>
-          <Button>{t('header.getStarted')}</Button>
+          <Link href="/download">
+            <Button>{t('header.getStarted')}</Button>
+          </Link>
         </div>
       </div>
     </header>
