@@ -42,7 +42,7 @@ export function Faq() {
               alt="Vitalia Logo"
               width={150}
               height={150}
-              className="rounded-full"
+              className=""
             />
           </div>
           <div className="md:w-2/3">
