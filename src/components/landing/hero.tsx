@@ -1,10 +1,14 @@
+'use client';
+
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { useI18n } from '@/context/i18n-context';
 
 const heroImage = PlaceHolderImages.find(img => img.id === 'hero-image');
 
 export function Hero() {
+  const { t } = useI18n();
   return (
     <section className="relative py-20 md:py-32">
       <div
@@ -18,15 +22,15 @@ export function Hero() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-20 items-center">
           <div className="text-center md:text-left">
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl font-headline">
-              Connecting Families, Enhancing Care
+              {t('hero.title')}
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              VitaliaConnect is a comprehensive platform designed to bridge the communication gap between families and care centers, ensuring peace of mind and seamless resident monitoring.
+              {t('hero.description')}
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 md:justify-start">
-              <Button size="lg">Request a Demo</Button>
+              <Button size="lg">{t('hero.requestDemo')}</Button>
               <Button size="lg" variant="ghost">
-                Learn More <span aria-hidden="true" className="ml-2">→</span>
+                {t('hero.learnMore')} <span aria-hidden="true" className="ml-2">→</span>
               </Button>
             </div>
           </div>

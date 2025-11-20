@@ -1,0 +1,50 @@
+{
+  "header": {
+    "signIn": "Iniciar Sesión",
+    "getStarted": "Comenzar"
+  },
+  "hero": {
+    "title": "Conectando Familias, Mejorando el Cuidado",
+    "description": "VitaliaConnect es una plataforma integral diseñada para cerrar la brecha de comunicación entre las familias y los centros de atención, garantizando tranquilidad y un seguimiento continuo de los residentes.",
+    "requestDemo": "Solicitar una Demostración",
+    "learnMore": "Aprender Más"
+  },
+  "features": {
+    "title": "Todo lo que Necesitas para tu Tranquilidad",
+    "description": "Nuestra plataforma está repleta de funciones diseñadas para mejorar la comunicación, agilizar el cuidado y proporcionar transparencia.",
+    "communication": {
+      "title": "Comunicación en Tiempo Real",
+      "description": "Participe en mensajería y videollamadas seguras y en tiempo real con el personal del centro de atención y sus seres queridos, manteniendo a todos conectados."
+    },
+    "monitoring": {
+      "title": "Monitoreo de Residentes",
+      "description": "Supervise el bienestar de los residentes con datos de sensores simulados, que proporcionan información sobre las actividades diarias y las tendencias de salud."
+    },
+    "notifications": {
+      "title": "Sistema de Notificaciones",
+      "description": "Reciba alertas instantáneas sobre horarios de medicamentos, citas y eventos importantes para mantenerse informado y proactivo."
+    },
+    "scheduling": {
+      "title": "Programación de Citas",
+      "description": "Programe y gestione fácilmente citas médicas, actividades sociales y visitas familiares a través de un calendario compartido intuitivo."
+    }
+  },
+  "aiSummarizer": {
+    "title": "Información Instantánea sobre Residentes",
+    "description": "Utilice nuestra herramienta impulsada por IA para resumir instantáneamente las extensas notas de los residentes.",
+    "formLabel": "Pegue los Datos del Residente Aquí",
+    "submitButton": "Generar Resumen",
+    "summaryTitle": "Resumen Generado por IA",
+    "errorTitle": "Error",
+    "successTitle": "Éxito",
+    "summarySuccess": "Resumen generado con éxito."
+  },
+  "screenshots": {
+    "title": "Una Experiencia Intuitiva",
+    "description": "Explore la interfaz limpia y fácil de usar de VitaliaConnect. Diseñada para la claridad y la facilidad de uso para todos."
+  },
+  "footer": {
+    "builtBy": "Construido por tu amigable IA del vecindario.",
+    "rightsReserved": "Todos los derechos reservados."
+  }
+}

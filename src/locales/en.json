@@ -1,0 +1,50 @@
+{
+  "header": {
+    "signIn": "Sign In",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Connecting Families, Enhancing Care",
+    "description": "VitaliaConnect is a comprehensive platform designed to bridge the communication gap between families and care centers, ensuring peace of mind and seamless resident monitoring.",
+    "requestDemo": "Request a Demo",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Everything You Need for Peace of Mind",
+    "description": "Our platform is packed with features designed to improve communication, streamline care, and provide transparency.",
+    "communication": {
+      "title": "Real-time Communication",
+      "description": "Engage in secure, real-time messaging and video calls with care center staff and loved ones, keeping everyone connected."
+    },
+    "monitoring": {
+      "title": "Resident Monitoring",
+      "description": "Monitor resident well-being with simulated sensor data, providing insights into daily activities and health trends."
+    },
+    "notifications": {
+      "title": "Notification System",
+      "description": "Receive instant alerts for medication schedules, appointments, and important events to stay informed and proactive."
+    },
+    "scheduling": {
+      "title": "Appointment Scheduling",
+      "description": "Easily schedule and manage medical appointments, social activities, and family visits through an intuitive shared calendar."
+    }
+  },
+  "aiSummarizer": {
+    "title": "Instant Resident Insights",
+    "description": "Use our AI-powered tool to instantly summarize lengthy resident notes.",
+    "formLabel": "Paste Resident Data Here",
+    "submitButton": "Generate Summary",
+    "summaryTitle": "AI-Generated Summary",
+    "errorTitle": "Error",
+    "successTitle": "Success",
+    "summarySuccess": "Summary generated successfully."
+  },
+  "screenshots": {
+    "title": "An Intuitive Experience",
+    "description": "Explore the clean and user-friendly interface of VitaliaConnect. Designed for clarity and ease of use for everyone."
+  },
+  "footer": {
+    "builtBy": "Built by your friendly neighborhood AI.",
+    "rightsReserved": "All rights reserved."
+  }
+}

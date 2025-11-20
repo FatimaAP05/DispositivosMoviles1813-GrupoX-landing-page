@@ -14,45 +14,45 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-
-const features = [
-  {
-    icon: <MessageSquare className="w-8 h-8 text-primary" />,
-    title: 'Real-time Communication',
-    description:
-      'Engage in secure, real-time messaging and video calls with care center staff and loved ones, keeping everyone connected.',
-  },
-  {
-    icon: <HeartPulse className="w-8 h-8 text-primary" />,
-    title: 'Resident Monitoring',
-    description:
-      'Monitor resident well-being with simulated sensor data, providing insights into daily activities and health trends.',
-    content: <ActivityChart />,
-  },
-  {
-    icon: <Bell className="w-8 h-8 text-primary" />,
-    title: 'Notification System',
-    description:
-      'Receive instant alerts for medication schedules, appointments, and important events to stay informed and proactive.',
-  },
-  {
-    icon: <CalendarDays className="w-8 h-8 text-primary" />,
-    title: 'Appointment Scheduling',
-    description:
-      'Easily schedule and manage medical appointments, social activities, and family visits through an intuitive shared calendar.',
-  },
-];
+import { useI18n } from '@/context/i18n-context';
 
 export function Features() {
+  const { t } = useI18n();
+
+  const features = [
+    {
+      icon: <MessageSquare className="w-8 h-8 text-primary" />,
+      title: t('features.communication.title'),
+      description: t('features.communication.description'),
+    },
+    {
+      icon: <HeartPulse className="w-8 h-8 text-primary" />,
+      title: t('features.monitoring.title'),
+      description: t('features.monitoring.description'),
+      content: <ActivityChart />,
+    },
+    {
+      icon: <Bell className="w-8 h-8 text-primary" />,
+      title: t('features.notifications.title'),
+      description: t('features.notifications.description'),
+    },
+    {
+      icon: <CalendarDays className="w-8 h-8 text-primary" />,
+      title: t('features.scheduling.title'),
+      description: t('features.scheduling.description'),
+    },
+  ];
+
+
   return (
     <section id="features" className="py-20 md:py-28 bg-accent/30">
       <div className="container px-4">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
-            Everything You Need for Peace of Mind
+            {t('features.title')}
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Our platform is packed with features designed to improve communication, streamline care, and provide transparency.
+            {t('features.description')}
           </p>
         </div>
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">

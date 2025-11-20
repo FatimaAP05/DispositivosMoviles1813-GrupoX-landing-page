@@ -10,20 +10,22 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import { Card, CardContent } from '@/components/ui/card';
+import { useI18n } from '@/context/i18n-context';
 
 const screenshotIds = ['screenshot-dashboard', 'screenshot-chat', 'screenshot-calendar'];
 const screenshots = PlaceHolderImages.filter(img => screenshotIds.includes(img.id));
 
 export function Screenshots() {
+  const { t } = useI18n();
   return (
     <section id="screenshots" className="py-20 md:py-28 bg-accent/30">
       <div className="container px-4">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl font-headline">
-            An Intuitive Experience
+            {t('screenshots.title')}
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Explore the clean and user-friendly interface of VitaliaConnect. Designed for clarity and ease of use for everyone.
+            {t('screenshots.description')}
           </p>
         </div>
 
