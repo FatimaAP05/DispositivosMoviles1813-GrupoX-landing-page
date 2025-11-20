@@ -21,39 +21,41 @@ export function Contact() {
             {t('contact.description')}
           </p>
         </div>
-        <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16 items-start">
-          <div className="space-y-8">
-            <div className="flex items-start gap-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 flex-shrink-0">
-                <Mail className="h-6 w-6 text-primary" />
+        <div className="mt-16 mx-auto max-w-4xl">
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16 items-start">
+            <div className="space-y-8 flex flex-col justify-center h-full">
+              <div className="flex items-start gap-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 flex-shrink-0">
+                  <Mail className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold">{t('contact.email')}</h3>
+                  <p className="text-muted-foreground">vitalia@gmail.com</p>
+                </div>
               </div>
-              <div>
-                <h3 className="text-lg font-semibold">{t('contact.email')}</h3>
-                <p className="text-muted-foreground">vitalia@gmail.com</p>
+              <div className="flex items-start gap-4">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 flex-shrink-0">
+                  <Phone className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold">{t('contact.phone')}</h3>
+                  <p className="text-muted-foreground">+51 970 526 672</p>
+                </div>
               </div>
             </div>
-            <div className="flex items-start gap-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 flex-shrink-0">
-                <Phone className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold">{t('contact.phone')}</h3>
-                <p className="text-muted-foreground">+51 970 526 672</p>
-              </div>
-            </div>
+            <Card>
+              <CardContent className="p-6">
+                <form className="space-y-4">
+                  <Input placeholder={t('contact.fullName')} />
+                  <Input type="email" placeholder={t('contact.emailLabel')} />
+                  <Textarea placeholder={t('contact.messagePlaceholder')} className="min-h-[120px]" />
+                  <Button type="submit" className="w-full">
+                    {t('contact.sendMessage')}
+                  </Button>
+                </form>
+              </CardContent>
+            </Card>
           </div>
-          <Card>
-            <CardContent className="p-6">
-              <form className="space-y-4">
-                <Input placeholder={t('contact.fullName')} />
-                <Input type="email" placeholder={t('contact.emailLabel')} />
-                <Textarea placeholder={t('contact.messagePlaceholder')} className="min-h-[120px]" />
-                <Button type="submit" className="w-full">
-                  {t('contact.sendMessage')}
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>
